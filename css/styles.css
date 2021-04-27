@@ -7,11 +7,11 @@
 
 body {
     font-family: monospace;
-    background-image: url("../images/background.jpeg")
+    /* background-image: url("../images/background.jpeg") */
 }
 .welcome {
     text-align: center;
-    color:whitesmoke
+    color: black;
     
 }
 .welcome p:hover{
