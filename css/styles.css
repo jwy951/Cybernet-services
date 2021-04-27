@@ -21,6 +21,7 @@ label.logo {
     color: white;
     padding: 0 100px;
     line-height: 80px;
+    text-transform: uppercase;
 }
 
 nav ul {
@@ -106,7 +107,7 @@ nav #icon {
     a.active,
     a:hover {
         border: none;
-        color: #3498db;
+        color: red;
     }
 
     nav ul.show {
