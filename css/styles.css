@@ -7,6 +7,7 @@
 
 body {
     font-family: monospace;
+    background-image: url("../images/background.jpeg")
 }
 
 nav {
