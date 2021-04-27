@@ -124,3 +124,9 @@ nav #icon {
         left: 0
     }
 }
+.contact-footer {
+    height: 70px;
+    background-color: #34495E;
+    /* margin-top:90px; */
+    color: white;
+}
