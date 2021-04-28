@@ -15,7 +15,7 @@ body {
     
 }
 .welcome p:hover{
-    color: aqua;
+    color: rgb(0, 4, 255);
     font-size: large;
 }
 
@@ -23,6 +23,10 @@ nav {
     height: 80px;
     width: 100%;
     background: #34495e;
+}
+.container{
+    /* background-image: url(../images/background.jpeg); */
+    background-color:#6484a55b;
 }
 
 label.logo {
