@@ -7,6 +7,7 @@
 
 body {
     font-family: monospace;
+    /* background-image: url(../images/background.jpeg); */
     
 }
 .welcome {
@@ -25,7 +26,6 @@ nav {
     background: #34495e;
 }
 .container{
-    /* background-image: url(../images/background.jpeg); */
     background-color:#6484a55b;
 }
 
