@@ -1,3 +1,39 @@
+
+$(document).ready(function(){
+   $("form#mc-embedded-subscribe-form").submit(function(event){
+       event.preventDefault();
+     let contactIdentity=$("input#mce-CONTACT1").val();
+     let contEmail=$("input#mce-EMAIL").val();
+     let  contactLocation=$("input#mce-CONTACT2").val();
+     let  contactMessage=$("input#mce-CONTACT3").val(); 
+     alert("thank you "+contactIdentity+" "+"we will get back to you shortly");
+
+    //  $("button.cont-but").click(function(){
+    //      alert("thank you "+contactIdentity+" "+"we will get back to you shortly");
+    //  })
+   });
+
+   $("form.kra").submit(function(event){
+    event.preventDefault();
+
+    });
+   
+       $("button#kracard").click(function(){
+            $("div.service-border1").toggle("2000");
+       });
+
+       $("button#landcard").click(function(){
+        $("div.land-dispaly").toggle("3000");
+       });
+
+       $("button#marriagecard").click(function(){
+        $("div.wedding").toggle("3000");
+       });
+
+       $("button#dlcard").click(function(){
+        $("div.driving-display").toggle("3000");
+       });
+});
 var price , pastpapers_price, topping_price ;
 let total = 0;
 function printing( name ,pages ,pastpapers, total ){
@@ -8,66 +44,5 @@ function printing( name ,pages ,pastpapers, total ){
 }
 
 
-// proceed button
-// $(document).ready(function(){
-  // $("button.proceed").click(function(){
-  //   $("button.proceed").hide();
-  //   $("#information").hide();
-  //   $("div.choise").slideDown(1000);
-  // });
-  // $("button.proceed").click(function(event){
-  //  let pname = $(".name option:selected").val();
-  //  let ppages = $("#pages option:selected").val();
-  //  let ppastpapers = $("#pastpapers option:selected").val();
-   
-
-  //  switch(ppages){
-  //   case "0":
-  //     price =0;
-  //   break;
-  //   case "large":
-  //      price = 2500;
-  //      console.log(price);
-  //    break;
-  //    case "medium":
-  //      price = 1250;
-  //      console.log("The price is "+price);
-  //    break;
-  //    case "small":
-  //      price = 900;
-  //      console.log(price);
-  //    default:
-  //      console.log("error"); 
-  //  }
-  //  switch(ppastpapers){
-  //     case "0":
-  //       pastpapers_price = 0;
-  //     break;
-  //     case "Crispy":
-  //       pastpapers_price = 200;
-  //     break;
-  //     case "Stuffed":
-  //       pastpapers_price = 250;
-  //     break;
-  //     case "Gluten-free":
-  //       pastpapers_price = 255;
-  //     break;
-  //     default:
-  //       console.log("No price"); 
-  //   }
 
 
-  //   if((ppages == "0") && (ppastpapers == "0")){
-  //     console.log("nothing selected");
-  //     $("button.proceed").show();
-  //     $("#information").show();
-  //     $("div.choise").hide();
-  //     alert("Please select subject passpapers and pages"); 
-  //   }
-  //   else{
-  //     $("button.proceed").hide();
-  //     $("#information").hide();
-  //     $("div.choise").slideDown(1000);
-  //   }
-
-  // }
