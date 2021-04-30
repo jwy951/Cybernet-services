@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
    $("form#mc-embedded-subscribe-form").submit(function(event){
        event.preventDefault();
@@ -33,3 +34,15 @@ $(document).ready(function(){
         $("div.driving-display").toggle("3000");
        });
 });
+var price , pastpapers_price, topping_price ;
+let total = 0;
+function printing( name ,pages ,pastpapers, total ){
+  this.subject= name;
+  this.pages = pages;
+  this.passtpapers = pastpapers;
+  this.total = total;
+}
+
+
+
+
